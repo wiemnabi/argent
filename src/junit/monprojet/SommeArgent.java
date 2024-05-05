@@ -15,7 +15,7 @@ return unite;
 }
 public SommeArgent add(SommeArgent m) throws UniteDistincteException {
     if (!this.unite.equals(m.unite)) {
-        throw new UniteDistincteException("Les unites des sommes d'argent sont differentes.");
+        throw new UniteDistincteException("Les unites des sommes d'argent sont differente.");
     }
     return new SommeArgent(this.quantite + m.quantite, this.unite);
 }
