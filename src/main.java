@@ -1,7 +1,7 @@
 import junit.monprojet.PorteMonnaie;
 import junit.monprojet.SommeArgent;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         PorteMonnaie porteMonnaie = new PorteMonnaie();
 
@@ -12,7 +12,7 @@ public class main {
         porteMonnaie.ajouteSomme(sa1);
         porteMonnaie.ajouteSomme(sa2);
 
-        System.out.println("Contenu du porte-monnaie après ajout de sa1 et sa2:");
+        System.out.println("Contenu du porte-monnaie apres ajout de sa1 et sa2:");
         System.out.println(porteMonnaie);
 
         PorteMonnaie expected = new PorteMonnaie();
