@@ -17,7 +17,7 @@ class SommeTest {
   @BeforeEach
   public void setUp() {
 	  count++;
-      System.out.println(count + "ime passage Avant exécution d'une méthode de test");
+      System.out.println(count + "ime passage Avant execution d'une methode de test");
 
       m12CHF = new SommeArgent(12, "CHF");
       m14CHF = new SommeArgent(14, "CHF");
@@ -41,7 +41,7 @@ class SommeTest {
 	   Assert.assertTrue(!m14USD.equals(m14CHF));}
 	   @AfterEach
 	   public void tearDown() {
-	      System.out.println(count + "ime passage APRES exécution d'une méthode de test");
+	      System.out.println(count + "ime passage APRES execution d'une methode de test");
 	   }
 	   
  
