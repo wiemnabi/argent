@@ -20,7 +20,7 @@ public class PorteMonnaie {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Contenu du porte-monnaie :\n");
+        sb.append("Contenu du portemonnaie :\n");
         for (String unite : contenu.keySet()) {
             sb.append(unite).append(" : ").append(contenu.get(unite)).append("\n");
         }
